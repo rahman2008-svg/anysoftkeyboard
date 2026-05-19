@@ -1,0 +1,26 @@
+workflows:
+  android-build:
+    name: AnySoftKeyboard Build
+
+    max_build_duration: 60
+
+    environment:
+      java: 17
+
+    cache:
+      cache_paths:
+        - ~/.gradle/caches
+        - ~/.gradle/wrapper
+
+    scripts:
+      - name: Setup Gradle Permission
+        script: chmod +x gradlew
+
+      - name: Clean Project
+        script: ./gradlew clean
+
+      - name: Build Debug APK
+        script: ./gradlew assembleDebug --stacktrace
+
+    artifacts:
+      - "**/*.apk"
