@@ -104,7 +104,7 @@
     <string name="power_saving_keyboard_theme_name">Battery Saver Theme</string>
     <string name="power_saving_keyboard_theme_description">Minimal dark theme optimized to reduce battery usage and improve performance.</string>
 
-    <string name="power_save_mode_animation_control">Disable animations & key previews</string>
+    <string name="power_save_mode_animation_control">Disable animations &amp; key previews</string>
     <string name="power_save_mode_sound_control">Disable key sounds</string>
     <string name="power_save_mode_vibration_control">Disable vibration feedback</string>
     <string name="power_save_mode_suggestions_control">Disable smart suggestions</string>
