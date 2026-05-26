@@ -3,11 +3,13 @@ workflows:
     name: AnySoftKeyboard Build
     environment:
       java: 17
+
     scripts:
-      - name: Set up Android SDK
-        script: |
-          sdkmanager "platforms;android-34" "build-tools;34.0.0"
+      - name: Grant permissions
+        script: chmod +x gradlew
+
       - name: Build APK
         script: ./gradlew assembleDebug
+
     artifacts:
       - app/build/outputs/**/*.apk
