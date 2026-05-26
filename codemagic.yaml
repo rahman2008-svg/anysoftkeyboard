@@ -1,8 +1,9 @@
 workflows:
   android-build:
     name: AnySoftKeyboard Build
+
     environment:
-      java: 17
+      java: 21
 
     scripts:
       - name: Grant permissions
