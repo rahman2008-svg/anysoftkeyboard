@@ -21,14 +21,14 @@
     <string name="testers_version">AstroKeys Beta Build</string>
 
     <string name="language_root_tile">Language</string>
-    <string name="language_keyboards_settings_tile">Enable AstroKeys languages & layouts</string>
-    <string name="language_grammar_settings_tile">Typing correction & smart suggestions</string>
+    <string name="language_keyboards_settings_tile">Enable AstroKeys languages &amp; layouts</string>
+    <string name="language_grammar_settings_tile">Typing correction &amp; smart suggestions</string>
     <string name="language_tweaks_settings_tile">Advanced language settings</string>
 
     <!-- UI root menu -->
     <string name="ui_root_tile">AstroKeys UI</string>
     <string name="ui_theme_settings_tile">Choose AstroKeys themes</string>
-    <string name="ui_effects_settings_tile">Typing animations & effects</string>
+    <string name="ui_effects_settings_tile">Typing animations &amp; effects</string>
 
     <!-- welcome -->
     
